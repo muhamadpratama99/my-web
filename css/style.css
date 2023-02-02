@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color:#FDEEDC;
+}
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+.nav-logo {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.nav-logo:hover {
+    color: #E38B29;
+}
+
+.nav {
+    width: 100%;
+    height: 75px;
+    background-color: #291600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.4s ease 0s;
+}
+
+a:hover {
+    color: #E38B29;
+}
+
+.header {
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.header-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 400px 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 250px;
+}
+
+.foto-profil {
+    width: 25%;
+    margin-top: 40px;
+    border: 5px solid #291600;
+    border-radius: 100%;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.foto-profil:hover {
+    transform:scale(1.1);
+}
+
+.profil-content {
+    text-align: center;
+}
+
+.skills {
+    padding: 40px 200px;
+    margin: 20px auto;
+}
+
+.skill-item {
+    width: 15%;
+}
+
+.skill-html {
+    display: flex;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #462602;
+    border-radius: 20px;
+    margin: 20px auto;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.skill-css {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #462602;
+    border-radius: 20px;
+    margin: 20px auto;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.skill-javascript {
+    display: flex;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #462602;
+    border-radius: 20px;
+    margin: 20px auto;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.skill-html:hover {
+    transform:scale(1.1)
+}
+
+.skill-css:hover {
+    transform:scale(1.1)
+}
+
+.skill-javascript:hover {
+    transform:scale(1.1)
+}
+
+.content-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.ch {
+    color: aliceblue;
+}
+
+.cp {
+    color: aliceblue;
+}
+
+.footer {
+    background-color: #E38B29;
+    height: 150px;
+}
+
+hr {
+    border-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Alex Brush', cursive;
+    font-weight: bold;
+    font-size: 7.25rem;
+    text-align: center;
+    padding: 20px;
+    padding-top: 250px;
+    color: #291600;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+h1:hover {
+    color: #E38B29;
+}
+
+h2 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 20px 20px 10px;
+    color: #291600;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    color: #291600;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    color: #291600;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.75rem;
+    color: aliceblue;
+}
+
+.contact-me {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content {
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 50x;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    background-color: #E38B29;
+    width: 10%;
+    height: 20%;
+    border-radius: 10rem;
+    padding: 10px 10px;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    background-color: #572e00;
+}
